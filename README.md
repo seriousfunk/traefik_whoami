@@ -12,3 +12,5 @@ Change Host:monitor.sendthebricks.com to your domain or remove completely to use
 
 `curl -H Host:blog.sendthebricks.com http://127.0.0.1`
 Note that the IP: will round-robin between the two whoami containers
+
+You can generate a new user:password with htpasswd -nb username password
